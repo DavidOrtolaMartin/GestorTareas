@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|c:\\users\\34617\\desktop\\visual studio\\t4_p3\\t4_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|solutionrelative:t4_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|c:\\users\\34617\\desktop\\visual studio\\t4_p3\\t4_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|solutionrelative:t4_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|c:\\users\\34617\\desktop\\visual studio\\t4_p3\\t4_p3\\gestortareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|solutionrelative:t4_p3\\gestortareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|c:\\users\\34617\\desktop\\visual studio\\t4_p3\\t4_p3\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDB5FF-23DB-494B-8252-3FB4CCCD9544}|T4_P3\\T4_P3.csproj|solutionrelative:t4_p3\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\Form1.cs",
+              "RelativeDocumentMoniker": "T4_P3\\Form1.cs",
+              "ToolTip": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\Form1.cs [Design]",
+              "RelativeToolTip": "T4_P3\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T15:51:05.654Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\Form1.cs",
+              "RelativeDocumentMoniker": "T4_P3\\Form1.cs",
+              "ToolTip": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\Form1.cs",
+              "RelativeToolTip": "T4_P3\\Form1.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwBoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T00:38:36.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestorTareas.cs",
+              "DocumentMoniker": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\GestorTareas.cs",
+              "RelativeDocumentMoniker": "T4_P3\\GestorTareas.cs",
+              "ToolTip": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\GestorTareas.cs",
+              "RelativeToolTip": "T4_P3\\GestorTareas.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T00:05:18.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\Tarea.cs",
+              "RelativeDocumentMoniker": "T4_P3\\Tarea.cs",
+              "ToolTip": "C:\\Users\\34617\\Desktop\\Visual Studio\\T4_P3\\T4_P3\\Tarea.cs",
+              "RelativeToolTip": "T4_P3\\Tarea.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA6wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T23:51:58.684Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

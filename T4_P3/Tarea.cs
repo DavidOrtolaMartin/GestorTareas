@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing.Text;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace T4_P3
+{
+    internal class Tarea
+    {
+
+        public string nombre { get; set; }
+
+        /*
+         * public string Titulo {
+         * get {
+         * return titulo;
+         * } set {
+         * titulo = value 
+         * }
+         */
+        public string descripcion { get; set; }
+        public DateTime fecha { get; set; }
+        public bool completado { get; set; }
+
+
+
+
+        public Tarea(string nombre, string descripcion, DateTime fecha)
+        {
+            this.nombre = nombre;
+            this.descripcion = descripcion;
+            this.fecha = fecha;
+            this.completado = false;
+        }
+        public override string ToString()
+        {
+            return nombre + " - " + fecha.ToShortDateString() + 
+                   (completado ? " (Completado)" : " (Por hacer)");
+        }
+    }
+}
+
+
