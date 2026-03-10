@@ -44,6 +44,8 @@
             labelDescripcion = new Label();
             labelFecha = new Label();
             textBoxSoloDescrip = new TextBox();
+            chkAltaPrioridad = new CheckBox();
+            labelPrioridad = new Label();
             SuspendLayout();
             // 
             // textBoxNombre
@@ -78,7 +80,7 @@
             // 
             // buttonAgregar
             // 
-            buttonAgregar.Location = new Point(169, 193);
+            buttonAgregar.Location = new Point(169, 218);
             buttonAgregar.Name = "buttonAgregar";
             buttonAgregar.Size = new Size(132, 29);
             buttonAgregar.TabIndex = 3;
@@ -144,6 +146,26 @@
             textBoxSoloDescrip.Size = new Size(339, 52);
             textBoxSoloDescrip.TabIndex = 5;
             // 
+            // chkAltaPrioridad
+            // 
+            chkAltaPrioridad.AutoSize = true;
+            chkAltaPrioridad.Location = new Point(169, 176);
+            chkAltaPrioridad.Name = "chkAltaPrioridad";
+            chkAltaPrioridad.Size = new Size(124, 24);
+            chkAltaPrioridad.TabIndex = 10;
+            chkAltaPrioridad.Text = "Alta prioridad";
+            chkAltaPrioridad.UseVisualStyleBackColor = true;
+            // 
+            // labelPrioridad
+            // 
+            labelPrioridad.AutoSize = true;
+            labelPrioridad.Location = new Point(73, 176);
+            labelPrioridad.Name = "labelPrioridad";
+            labelPrioridad.Size = new Size(73, 20);
+            labelPrioridad.TabIndex = 11;
+            labelPrioridad.Text = "Prioridad:";
+            labelPrioridad.Click += label1_Click_1;
+            // 
             // Form1
             // 
             AccessibleName = "BoxDescrip";
@@ -151,6 +173,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(890, 478);
+            Controls.Add(labelPrioridad);
+            Controls.Add(chkAltaPrioridad);
             Controls.Add(textBoxSoloDescrip);
             Controls.Add(labelFecha);
             Controls.Add(labelDescripcion);
@@ -181,5 +205,7 @@
         private Label labelDescripcion;
         private Label labelFecha;
         private TextBox textBoxSoloDescrip;
+        private CheckBox chkAltaPrioridad;
+        private Label labelPrioridad;
     }
 }

@@ -18,8 +18,8 @@ namespace T4_P3
         /// <param name="e"></param>
         private void buttonAgregar_Click(object sender, EventArgs e)
         {
-            Tarea t = new Tarea(textBoxNombre.Text, textBoxDescrip.Text, fecha.Value);
-
+            Tarea t = new Tarea(textBoxNombre.Text, textBoxDescrip.Text, fecha.Value, chkAltaPrioridad.Checked);
+            
             if (gestor.anadirTarea(t))
             {
 
@@ -128,6 +128,11 @@ namespace T4_P3
                 Tarea tarea = (Tarea)listBoxTareas.SelectedItem;
                 textBoxSoloDescrip.Text = tarea.descripcion;
             }
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

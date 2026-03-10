@@ -17,3 +17,8 @@ packages/
 # Ignorar archivos del sistema operativo
 .DS_Store
 Thumbs.db
+
+# Archivos de Visual Studio
+.vs/
+bin/
+obj/

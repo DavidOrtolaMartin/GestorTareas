@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing.Text;
 using System.Linq;
 using System.Text;
@@ -23,21 +24,24 @@ namespace T4_P3
         public string descripcion { get; set; }
         public DateTime fecha { get; set; }
         public bool completado { get; set; }
+        public bool prioridadAlta { get; set; } 
 
 
 
 
-        public Tarea(string nombre, string descripcion, DateTime fecha)
+        public Tarea(string nombre, string descripcion, DateTime fecha, bool prioridadAlta = false)
         {
             this.nombre = nombre;
             this.descripcion = descripcion;
             this.fecha = fecha;
             this.completado = false;
+            this.prioridadAlta = prioridadAlta;
         }
         public override string ToString()
         {
             return nombre + " - " + fecha.ToShortDateString() + 
-                   (completado ? " (Completado)" : " (Por hacer)");
+                   (completado ? " (Completado)" : " (Por hacer)") + 
+                   (prioridadAlta ? "(Prioritaria)" : "");
         }
     }
 }
