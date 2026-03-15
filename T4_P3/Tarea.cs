@@ -25,22 +25,27 @@ namespace T4_P3
         public DateTime fecha { get; set; }
         public bool completado { get; set; }
         public bool prioridadAlta { get; set; } 
+        public string categoria { get; set; }
 
 
 
 
-        public Tarea(string nombre, string descripcion, DateTime fecha, bool prioridadAlta = false)
+        public Tarea(string nombre, string descripcion, DateTime fecha, string categoria, bool prioridadAlta = false)
         {
             this.nombre = nombre;
             this.descripcion = descripcion;
             this.fecha = fecha;
             this.completado = false;
+            this.categoria = categoria;
             this.prioridadAlta = prioridadAlta;
+            
+
         }
         public override string ToString()
         {
             return nombre + " - " + fecha.ToShortDateString() + 
-                   (completado ? " (Completado)" : " (Por hacer)") + 
+                   (completado ? " (Completado)" : " (Por hacer)") +
+                   (string.IsNullOrWhiteSpace(categoria) ? "" : " (" + categoria + ")") +
                    (prioridadAlta ? "(Prioritaria)" : "");
         }
     }

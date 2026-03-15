@@ -18,7 +18,7 @@ namespace T4_P3
         /// <param name="e"></param>
         private void buttonAgregar_Click(object sender, EventArgs e)
         {
-            Tarea t = new Tarea(textBoxNombre.Text, textBoxDescrip.Text, fecha.Value, chkAltaPrioridad.Checked);
+            Tarea t = new Tarea(textBoxNombre.Text, textBoxDescrip.Text, fecha.Value, cmbCategoria.Text,chkAltaPrioridad.Checked);
             
             if (gestor.anadirTarea(t))
             {

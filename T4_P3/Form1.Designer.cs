@@ -46,6 +46,8 @@
             textBoxSoloDescrip = new TextBox();
             chkAltaPrioridad = new CheckBox();
             labelPrioridad = new Label();
+            cmbCategoria = new ComboBox();
+            labelCategoria = new Label();
             SuspendLayout();
             // 
             // textBoxNombre
@@ -72,15 +74,15 @@
             // listBoxTareas
             // 
             listBoxTareas.FormattingEnabled = true;
-            listBoxTareas.Location = new Point(80, 253);
+            listBoxTareas.Location = new Point(504, 48);
             listBoxTareas.Name = "listBoxTareas";
-            listBoxTareas.Size = new Size(339, 124);
+            listBoxTareas.Size = new Size(374, 184);
             listBoxTareas.TabIndex = 4;
             listBoxTareas.SelectedIndexChanged += listBoxTareas_SelectedIndexChanged;
             // 
             // buttonAgregar
             // 
-            buttonAgregar.Location = new Point(169, 218);
+            buttonAgregar.Location = new Point(169, 276);
             buttonAgregar.Name = "buttonAgregar";
             buttonAgregar.Size = new Size(132, 29);
             buttonAgregar.TabIndex = 3;
@@ -90,7 +92,7 @@
             // 
             // buttonEliminar
             // 
-            buttonEliminar.Location = new Point(490, 253);
+            buttonEliminar.Location = new Point(169, 332);
             buttonEliminar.Name = "buttonEliminar";
             buttonEliminar.Size = new Size(132, 29);
             buttonEliminar.TabIndex = 6;
@@ -100,7 +102,7 @@
             // 
             // buttonCompletar
             // 
-            buttonCompletar.Location = new Point(490, 313);
+            buttonCompletar.Location = new Point(169, 391);
             buttonCompletar.Name = "buttonCompletar";
             buttonCompletar.Size = new Size(215, 29);
             buttonCompletar.TabIndex = 7;
@@ -140,10 +142,10 @@
             // textBoxSoloDescrip
             // 
             textBoxSoloDescrip.AccessibleName = "BoxDescrip";
-            textBoxSoloDescrip.Location = new Point(80, 397);
+            textBoxSoloDescrip.Location = new Point(504, 314);
             textBoxSoloDescrip.Multiline = true;
             textBoxSoloDescrip.Name = "textBoxSoloDescrip";
-            textBoxSoloDescrip.Size = new Size(339, 52);
+            textBoxSoloDescrip.Size = new Size(374, 120);
             textBoxSoloDescrip.TabIndex = 5;
             // 
             // chkAltaPrioridad
@@ -166,13 +168,34 @@
             labelPrioridad.Text = "Prioridad:";
             labelPrioridad.Click += label1_Click_1;
             // 
+            // cmbCategoria
+            // 
+            cmbCategoria.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbCategoria.FormattingEnabled = true;
+            cmbCategoria.Items.AddRange(new object[] { "Trabajo", "Personal", "Estudios" });
+            cmbCategoria.Location = new Point(169, 218);
+            cmbCategoria.Name = "cmbCategoria";
+            cmbCategoria.Size = new Size(151, 28);
+            cmbCategoria.TabIndex = 12;
+            // 
+            // labelCategoria
+            // 
+            labelCategoria.AutoSize = true;
+            labelCategoria.Location = new Point(73, 226);
+            labelCategoria.Name = "labelCategoria";
+            labelCategoria.Size = new Size(77, 20);
+            labelCategoria.TabIndex = 13;
+            labelCategoria.Text = "Categoria:";
+            // 
             // Form1
             // 
             AccessibleName = "BoxDescrip";
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(890, 478);
+            ClientSize = new Size(890, 510);
+            Controls.Add(labelCategoria);
+            Controls.Add(cmbCategoria);
             Controls.Add(labelPrioridad);
             Controls.Add(chkAltaPrioridad);
             Controls.Add(textBoxSoloDescrip);
@@ -207,5 +230,7 @@
         private TextBox textBoxSoloDescrip;
         private CheckBox chkAltaPrioridad;
         private Label labelPrioridad;
+        private ComboBox cmbCategoria;
+        private Label labelCategoria;
     }
 }
