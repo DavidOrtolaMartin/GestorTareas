@@ -22,7 +22,7 @@ namespace T4_P3
             
             if (gestor.anadirTarea(t))
             {
-
+                lblContadorTareas.Text = gestor.getContadorTareas().ToString();
                 listBoxTareas.Items.Clear();
                 for (int i = 0; i < gestor.getContadorTareas(); i++)
                 {
@@ -56,7 +56,7 @@ namespace T4_P3
             {
                 Tarea t = (Tarea)listBoxTareas.SelectedItem;
                 gestor.eliminarTarea(t);
-
+                lblContadorTareas.Text = gestor.getContadorTareas().ToString();
 
                 listBoxTareas.Items.Clear();
                 for (int i = 0; i < gestor.getContadorTareas(); i++)

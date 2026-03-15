@@ -48,6 +48,8 @@
             labelPrioridad = new Label();
             cmbCategoria = new ComboBox();
             labelCategoria = new Label();
+            lblContadorTareas = new Label();
+            labelNumTareas = new Label();
             SuspendLayout();
             // 
             // textBoxNombre
@@ -74,7 +76,7 @@
             // listBoxTareas
             // 
             listBoxTareas.FormattingEnabled = true;
-            listBoxTareas.Location = new Point(504, 48);
+            listBoxTareas.Location = new Point(504, 87);
             listBoxTareas.Name = "listBoxTareas";
             listBoxTareas.Size = new Size(374, 184);
             listBoxTareas.TabIndex = 4;
@@ -187,6 +189,24 @@
             labelCategoria.TabIndex = 13;
             labelCategoria.Text = "Categoria:";
             // 
+            // lblContadorTareas
+            // 
+            lblContadorTareas.AutoSize = true;
+            lblContadorTareas.Location = new Point(571, 44);
+            lblContadorTareas.Name = "lblContadorTareas";
+            lblContadorTareas.Size = new Size(17, 20);
+            lblContadorTareas.TabIndex = 14;
+            lblContadorTareas.Text = "0";
+            // 
+            // labelNumTareas
+            // 
+            labelNumTareas.AutoSize = true;
+            labelNumTareas.Location = new Point(504, 44);
+            labelNumTareas.Name = "labelNumTareas";
+            labelNumTareas.Size = new Size(70, 20);
+            labelNumTareas.TabIndex = 15;
+            labelNumTareas.Text = "NºTareas:";
+            // 
             // Form1
             // 
             AccessibleName = "BoxDescrip";
@@ -194,6 +214,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(890, 510);
+            Controls.Add(labelNumTareas);
+            Controls.Add(lblContadorTareas);
             Controls.Add(labelCategoria);
             Controls.Add(cmbCategoria);
             Controls.Add(labelPrioridad);
@@ -232,5 +254,7 @@
         private Label labelPrioridad;
         private ComboBox cmbCategoria;
         private Label labelCategoria;
+        private Label lblContadorTareas;
+        private Label labelNumTareas;
     }
 }
