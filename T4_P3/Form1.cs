@@ -18,8 +18,8 @@ namespace T4_P3
         /// <param name="e"></param>
         private void buttonAgregar_Click(object sender, EventArgs e)
         {
-            Tarea t = new Tarea(textBoxNombre.Text, textBoxDescrip.Text, fecha.Value, cmbCategoria.Text,chkAltaPrioridad.Checked);
-            
+            Tarea t = new Tarea(textBoxNombre.Text, textBoxDescrip.Text, fecha.Value, cmbCategoria.Text, chkAltaPrioridad.Checked);
+
             if (gestor.anadirTarea(t))
             {
                 lblContadorTareas.Text = gestor.getContadorTareas().ToString();
@@ -133,6 +133,16 @@ namespace T4_P3
         private void label1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnLimpiarCampos_Click(object sender, EventArgs e)
+        {
+            textBoxNombre.Clear();
+
+            textBoxDescrip.Clear();
+            fecha.Value = DateTime.Today;
+            cmbCategoria.SelectedIndex = -1;
+            chkAltaPrioridad.Checked = false;
         }
     }
 }

@@ -50,6 +50,7 @@
             labelCategoria = new Label();
             lblContadorTareas = new Label();
             labelNumTareas = new Label();
+            btnLimpiarCampos = new Button();
             SuspendLayout();
             // 
             // textBoxNombre
@@ -207,6 +208,16 @@
             labelNumTareas.TabIndex = 15;
             labelNumTareas.Text = "NºTareas:";
             // 
+            // btnLimpiarCampos
+            // 
+            btnLimpiarCampos.Location = new Point(325, 276);
+            btnLimpiarCampos.Name = "btnLimpiarCampos";
+            btnLimpiarCampos.Size = new Size(94, 29);
+            btnLimpiarCampos.TabIndex = 16;
+            btnLimpiarCampos.Text = "Limpiar";
+            btnLimpiarCampos.UseVisualStyleBackColor = true;
+            btnLimpiarCampos.Click += btnLimpiarCampos_Click;
+            // 
             // Form1
             // 
             AccessibleName = "BoxDescrip";
@@ -214,6 +225,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(890, 510);
+            Controls.Add(btnLimpiarCampos);
             Controls.Add(labelNumTareas);
             Controls.Add(lblContadorTareas);
             Controls.Add(labelCategoria);
@@ -256,5 +268,6 @@
         private Label labelCategoria;
         private Label lblContadorTareas;
         private Label labelNumTareas;
+        private Button btnLimpiarCampos;
     }
 }
