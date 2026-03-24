@@ -1,3 +1,5 @@
+using Microsoft.VisualBasic.Logging;
+
 namespace T4_P3
 {
     public partial class Form1 : Form
@@ -5,9 +7,14 @@ namespace T4_P3
         public Form1()
         {
             InitializeComponent();
+
+            // Funcionalidad de login
+            MessageBox.Show("Login implementado");
+
         }
 
         GestorTareas gestor = new GestorTareas(100);
+
 
         /// <summary>
         /// Agrego una Tarea con los valores del formulario. Si puedo añadir la tarea al array entonces
