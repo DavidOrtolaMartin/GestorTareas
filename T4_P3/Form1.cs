@@ -8,9 +8,9 @@ namespace T4_P3
         {
             InitializeComponent();
 
-            // Funcionalidad de login
+            // Funcionalidades de login y registro
             MessageBox.Show("Login implementado");
-
+            MessageBox.Show("Registro implementado");
         }
 
         GestorTareas gestor = new GestorTareas(100);
