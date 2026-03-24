@@ -5,6 +5,9 @@ namespace T4_P3
         public Form1()
         {
             InitializeComponent();
+
+            // Funcionalidad de registro
+            MessageBox.Show("Registro implementado");
         }
 
         GestorTareas gestor = new GestorTareas(100);
