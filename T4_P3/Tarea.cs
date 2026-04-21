@@ -27,7 +27,7 @@ namespace T4_P3
         public bool prioridadAlta { get; set; } 
         public string categoria { get; set; }
 
-
+        public List<string> Etiquetas { get; set; } = new List<string>(); // Nueva propiedad
 
 
         public Tarea(string nombre, string descripcion, DateTime fecha, string categoria, bool prioridadAlta = false)
